@@ -1,21 +1,22 @@
 body {
     background: #374151;
-    font-weight: 400px;
+    font-weight: 400;
     font-size: 16px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #FFFFFF;
-    margin: 0;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 header {
-    padding: 80px 0;
+    max-width: 1080px;
+    margin: 80px auto;
 }
 
 header a {
     line-height: 18.75px;
     color: #FFFFFF;
     text-decoration: none;
-    padding: 80 0 0 0;
 }
 
 nav ul {
@@ -23,21 +24,19 @@ nav ul {
 }
 
 #logoBlog {
-    font-weight: 600px;
+    font-weight: 600;
     font-size: 18px;
     line-height: 22.63px;
-    height: 11px;
 }
 
 #nameBlog {
     font-size: 18px;
     line-height: 21.09px;
-    height: 21px;
 }
 
 header input {
     background-color: rgba(31, 41, 55, 0.6);
-    font-weight: 400px;
+    font-weight: 400;
     font-size: 16px;
     line-height: 18.75px;
     color: #FFFFFF;
@@ -55,30 +54,30 @@ input::placeholder {
 #heroDate {
     font-size: 14px;
     line-height: 16.47px;
-    height: 16px;
     width: 180px;
-    margin: 0 auto 14px;
+    margin-bottom: 14px;
+}
+
+section {
+    text-align: center
 }
 
 h1 {
     text-align: center;
     font-size: 24px;
     line-height: 38px;
-    height: 76px;
     width: 525px;
     margin: 0 auto 30px;
 }
 
 #image1 {
-    width: 50px;
-    height: 50px;
+    max-width: 50px;
     border-radius: 100%;
-    margin: 0 auto 0px;
+    margin: 0 auto;
 }
 
 .heroName {
     line-height: 28px;
-    height: 25px;
     width: 148px;
     margin: 0 auto 0px;
 }
@@ -86,13 +85,12 @@ h1 {
 .heroJob {
     font-size: 14px;
     line-height: 28px;
-    height: 25px;
     width: 85px;
     margin: 0 auto 28px;
 }
 
 #image2 {
-    width: 896px;
+    max-width: 896px;
     margin: 0 auto;
     border-radius: 5px;
     margin-bottom: 69px;
@@ -108,9 +106,10 @@ p {
     line-height: 30px;
     width: 708px;
     margin: 0 auto 30px;
+    text-align: start;
 }
 
-footer>div {
+footer>p {
     line-height: 28px;
     width: 226px;
     margin: 103px auto 77px;
